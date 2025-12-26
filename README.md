@@ -72,3 +72,20 @@ A Java GUI-based application to manage student records using **Java**,
 -   Connect to DB\
 -   Run queries\
 -   Display results in GUI
+
+-   StudentManagement/ │ ├── src/ │ ├── controller/ │ │ └── StudentServlet.java │ ├── dao/ │ │ └── StudentDAO.java │ ├── model/ │ │ └── Student.java │ └── util/ │ └── DBConnection.java │ ├── WebContent/ │ ├── css/ │ │ └── style.css │ ├── js/ │ │ └── validation.js │ ├── addStudent.jsp │ ├── viewStudent.jsp │ └── index.jsp │ ├── WEB-INF/ │ └── web.xml │ └── README.md
+
+Student Management Web Application
+Technologies Used
+Java (Servlet, JSP)
+MySQL
+HTML, CSS, JavaScript
+Features
+Add Student
+View Student List
+Input Validation
+MVC Architecture
+How to Run
+Import project in Eclipse
+Configure MySQL DB
+Run on Apache Tomcat
